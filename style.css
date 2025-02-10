@@ -11,12 +11,11 @@
     border-radius: 12px;
     box-shadow: 2px 2px 2px rgb(135, 132, 132);
     
-    
 }
 /* .subContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: sp;
     flex-wrap: wrap;
     height:3rem;
     width: 8.5rem;
@@ -59,12 +58,16 @@ button.long{
     width: 35px;
     height: 74px;
     background-color: orange;
+    
+    
 
 }
 .right{
     display: flex;
     flex-direction: column;
     gap: 1px;
+    
+    
     
 }
 .button-container{
@@ -79,4 +82,32 @@ button.long:hover{
 }
 body{
     background: linear-gradient(45deg,rgb(212, 21, 21) 10%,rgb(70, 69, 138));
+}
+
+.lists{
+    display: flex;
+    justify-content: center;
+    
+}
+.lists li{
+    background-color: aqua;
+    width: 45rem;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.delbtn{
+    display: flex;
+    height: 15px;
+    width: 50px;
+    align-items: flex-end;
+    
+}
+.history h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
